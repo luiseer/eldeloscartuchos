@@ -1,10 +1,13 @@
 /* ===== VARIABLES ===== */
 :root {
-  --cyan: #1BAAC7;
-  --magenta: #C71C63;
-  --teal: #366872;
-  --gold: #C7B61C;
-  --brown: #47452E;
+  --black: #000000;
+  --blue: #5FA8C6;
+  --yellow: #ECE336;
+  --pink: #AE5D9B;
+  --blue1: #365994;
+  --blue2: #2D4979;
+  --beige: #EEE1D6;
+  --beige-warm: #FDF6D6;
   --white: #FFFFFF;
   --whatsapp: #25D366;
   --font-primary: 'Poppins', sans-serif;
@@ -27,7 +30,7 @@ html {
 
 body {
   font-family: var(--font-primary);
-  color: var(--brown);
+  color: var(--black);
   background: var(--white);
   line-height: 1.6;
 }
@@ -55,7 +58,7 @@ img {
 
 .section-title {
   font-size: 2rem;
-  color: var(--teal);
+  color: var(--blue1);
   text-align: center;
   margin-bottom: 3rem;
   font-weight: 700;
@@ -63,7 +66,7 @@ img {
 
 .section-subtitle {
   text-align: center;
-  color: var(--brown);
+  color: var(--black);
   margin-bottom: 2.5rem;
   font-size: 1.1rem;
 }
@@ -85,12 +88,12 @@ img {
 }
 
 .btn--primary {
-  background: var(--cyan);
+  background: var(--blue);
   color: var(--white);
 }
 
 .btn--primary:hover {
-  background: #159bb5;
+  background: #4E97B5;
 }
 
 .btn--whatsapp {
@@ -123,11 +126,11 @@ img {
 .navbar__logo {
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--teal);
+  color: var(--blue1);
 }
 
 .navbar__logo span {
-  color: var(--cyan);
+  color: var(--blue);
 }
 
 .navbar__menu {
@@ -148,13 +151,13 @@ img {
 
 .navbar__link {
   padding: 0.7rem 1.5rem;
-  color: var(--brown);
+  color: var(--black);
   font-weight: 500;
   transition: color var(--transition);
 }
 
 .navbar__link:hover {
-  color: var(--cyan);
+  color: var(--blue);
 }
 
 .navbar__whatsapp {
@@ -188,14 +191,14 @@ img {
   display: block;
   width: 25px;
   height: 3px;
-  background: var(--teal);
+  background: var(--blue1);
   border-radius: 2px;
   transition: transform var(--transition), opacity var(--transition);
 }
 
 /* ===== HERO ===== */
 .hero {
-  background: var(--teal);
+  background: var(--blue1);
   color: var(--white);
   padding: 8rem 0 5rem;
   text-align: center;
@@ -212,7 +215,7 @@ img {
 }
 
 .hero__title span {
-  color: var(--cyan);
+  color: var(--blue);
 }
 
 .hero__subtitle {
@@ -248,33 +251,33 @@ img {
 }
 
 .service-card:hover {
-  box-shadow: 0 8px 25px rgba(27, 170, 199, 0.15);
-  border-color: var(--cyan);
+  box-shadow: 0 8px 25px rgba(95, 168, 198, 0.15);
+  border-color: var(--blue);
 }
 
 .service-card__icon {
   font-size: 2.5rem;
-  color: var(--gold);
+  color: var(--yellow);
   margin-bottom: 1rem;
 }
 
 .service-card__title {
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--teal);
+  color: var(--blue1);
   margin-bottom: 0.5rem;
 }
 
 .service-card__desc {
   font-size: 0.95rem;
-  color: var(--brown);
+  color: var(--black);
   opacity: 0.85;
 }
 
 /* ===== WHY US ===== */
 .why-us {
   padding: 5rem 0;
-  background: #f8fafb;
+  background: var(--beige-warm);
 }
 
 .why-us__grid {
@@ -290,20 +293,20 @@ img {
 
 .why-us__icon {
   font-size: 2.8rem;
-  color: var(--cyan);
+  color: var(--blue);
   margin-bottom: 1.2rem;
 }
 
 .why-us__title {
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--teal);
+  color: var(--blue1);
   margin-bottom: 0.5rem;
 }
 
 .why-us__desc {
   font-size: 0.95rem;
-  color: var(--brown);
+  color: var(--black);
   opacity: 0.85;
 }
 
@@ -316,13 +319,13 @@ img {
 
 .coverage__text {
   font-size: 1.1rem;
-  color: var(--brown);
+  color: var(--black);
   margin-bottom: 1rem;
 }
 
 .coverage__zones {
   font-size: 1rem;
-  color: var(--teal);
+  color: var(--blue1);
   font-weight: 600;
   margin-bottom: 2rem;
 }
@@ -331,19 +334,19 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--cyan);
+  color: var(--blue);
   font-weight: 600;
   transition: color var(--transition);
 }
 
 .coverage__map-link:hover {
-  color: var(--magenta);
+  color: var(--pink);
 }
 
 /* ===== CONTACT ===== */
 .contact {
   padding: 5rem 0;
-  background: var(--teal);
+  background: var(--blue1);
   color: var(--white);
   text-align: center;
 }
@@ -365,7 +368,7 @@ img {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: var(--brown);
+  background: var(--black);
   color: var(--white);
   padding: 3rem 0 1.5rem;
 }
@@ -384,14 +387,14 @@ img {
 }
 
 .footer__brand span {
-  color: var(--cyan);
+  color: var(--blue);
 }
 
 .footer__services-title {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
-  color: var(--gold);
+  color: var(--yellow);
 }
 
 .footer__services-list li {
@@ -402,7 +405,32 @@ img {
 
 .footer__services-list li::before {
   content: "▸ ";
-  color: var(--cyan);
+  color: var(--blue);
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  font-size: 1.3rem;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.footer__social a:hover {
+  background: var(--blue);
+  transform: translateY(-3px);
 }
 
 .footer__bottom {
