@@ -93,7 +93,7 @@ img {
 }
 
 .btn--primary:hover {
-  background: #4E97B5;
+  background: var(--pink);
 }
 
 .btn--whatsapp {
@@ -157,7 +157,7 @@ img {
 }
 
 .navbar__link:hover {
-  color: var(--blue);
+  color: var(--pink);
 }
 
 .navbar__whatsapp {
@@ -251,8 +251,8 @@ img {
 }
 
 .service-card:hover {
-  box-shadow: 0 8px 25px rgba(95, 168, 198, 0.15);
-  border-color: var(--blue);
+  box-shadow: 0 8px 25px rgba(174, 93, 155, 0.2);
+  border-color: var(--pink);
 }
 
 .service-card__icon {
@@ -429,7 +429,7 @@ img {
 }
 
 .footer__social a:hover {
-  background: var(--blue);
+  background: var(--pink);
   transform: translateY(-3px);
 }
 
