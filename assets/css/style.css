@@ -100,7 +100,7 @@ iframe {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding-inline: 1rem;
 }
 
 .section {
@@ -210,28 +210,40 @@ iframe {
   color: var(--brown);
 }
 
+/* Logo del cliente: "C" en SVG + letras en PNG */
 .brand__mark {
-  width: 38px;
-  height: 38px;
+  width: auto;
+  height: 40px;
   flex-shrink: 0;
 }
 
-.brand__name {
-  display: flex;
-  flex-direction: column;
-  font-family: var(--font-display);
-  font-size: 1.45rem;
-  line-height: 0.95;
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
+.brand__word,
+.brand__word img {
+  display: block;
 }
 
-.brand__name small {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+/* En celular solo el nombre (sin eslogan), ajustado al ancho disponible */
+.brand__word img {
+  width: clamp(140px, calc(100vw - 195px), 240px);
+  height: auto;
+}
+
+.brand--footer .brand__mark {
+  height: 56px;
+}
+
+.brand--footer {
+  display: flex;
+  max-width: 100%;
+}
+
+.brand--footer .brand__word {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  filter: invert(1); /* letras negras -> blancas sobre fondo oscuro */
 }
 
 /* ===== NAVBAR ===== */
@@ -345,6 +357,13 @@ iframe {
   gap: 2.5rem;
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
+}
+
+.hero__logo {
+  width: 92px;
+  height: auto;
+  margin-bottom: 1.25rem;
+  filter: drop-shadow(5px 5px 0 var(--brown-dark));
 }
 
 .hero .kicker {
@@ -835,7 +854,7 @@ iframe {
 /* ===== TABLET ===== */
 @media (min-width: 640px) {
   .container {
-    padding: 0 1.5rem;
+    padding-inline: 1.5rem;
   }
 
   .problems__grid {
@@ -896,6 +915,10 @@ iframe {
     width: 300px;
   }
 
+  .hero__logo {
+    width: 120px;
+  }
+
   .problems__grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -908,6 +931,18 @@ iframe {
     grid-template-columns: 5fr 7fr;
     align-items: center;
     gap: 4rem;
+  }
+}
+
+/* Pantallas anchas: logo completo con eslogan */
+@media (min-width: 1000px) {
+  .navbar .brand__mark {
+    height: 48px;
+  }
+
+  .navbar .brand__word img {
+    width: auto;
+    height: 40px;
   }
 }
 
