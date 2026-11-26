@@ -10,6 +10,7 @@ Sitio estático (HTML, CSS y JS sin frameworks) publicado con GitHub Pages en el
 ```
 ├── index.html               página única
 ├── CNAME                    dominio de GitHub Pages (no borrar)
+├── favicon.ico              ícono 16/32/48 px en la raíz (navegadores y Google)
 └── assets/
     ├── css/style.css        estilos y paleta
     ├── js/main.js           menú móvil, año del footer, estado "abierto/cerrado"
@@ -19,7 +20,7 @@ Sitio estático (HTML, CSS y JS sin frameworks) publicado con GitHub Pages en el
         ├── logo-nombre.png  solo el nombre (se usa en pantallas angostas)
         ├── logo-512.png     logo cuadrado para Google (JSON-LD)
         ├── favicon.svg      ícono de pestaña (misma "C", lienzo cuadrado)
-        ├── favicon-32.png
+        ├── favicon-192.png  ícono PNG transparente (también fuente de /favicon.ico 16/32/48)
         ├── apple-touch-icon.png
         └── og-image.png     imagen al compartir el enlace (1200×630)
 ```
