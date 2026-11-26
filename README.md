@@ -14,7 +14,11 @@ Sitio estático (HTML, CSS y JS sin frameworks) publicado con GitHub Pages en el
     ├── css/style.css        estilos y paleta
     ├── js/main.js           menú móvil, año del footer, estado "abierto/cerrado"
     └── img/
-        ├── favicon.svg      gotas CMY (marca provisional, aún no hay logo)
+        ├── logo.svg         logo "C" del cliente, redibujado en vector a partir de su PNG
+        ├── logo-letras.png  nombre + eslogan (PNG original del cliente)
+        ├── logo-nombre.png  solo el nombre (se usa en pantallas angostas)
+        ├── logo-512.png     logo cuadrado para Google (JSON-LD)
+        ├── favicon.svg      ícono de pestaña (misma "C", lienzo cuadrado)
         ├── favicon-32.png
         ├── apple-touch-icon.png
         └── og-image.png     imagen al compartir el enlace (1200×630)

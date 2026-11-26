@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <title>El de los Cartuchos</title>
-  <path d="M16 3C16 3 6 15.5 6 23a10 10 0 0 0 20 0C26 15.5 16 3 16 3Z" fill="#1BAAC7" style="mix-blend-mode:multiply"/>
-  <path d="M24 5C24 5 14 17.5 14 25a10 10 0 0 0 20 0C34 17.5 24 5 24 5Z" fill="#C71C63" style="mix-blend-mode:multiply"/>
-  <path d="M20 9C20 9 10 21.5 10 29a10 10 0 0 0 20 0C30 21.5 20 9 20 9Z" fill="#C7B61C" style="mix-blend-mode:multiply"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-21.5 13 561 561"><title>El de los Cartuchos</title><g stroke="#000" stroke-width="23" stroke-linejoin="round"><path fill="#00AAC9" d="M486.2 103.8A267.5 267.5 0 0 0 107.8 103.8L211.8 207.8A120.5 120.5 0 0 1 382.2 207.8Z"/><path fill="#C55D9F" d="M107.8 103.8A267.5 267.5 0 0 0 107.8 482.2L211.8 378.2A120.5 120.5 0 0 1 211.8 207.8Z"/><path fill="#F1E400" d="M107.8 482.2A267.5 267.5 0 0 0 486.2 482.2L382.2 378.2A120.5 120.5 0 0 1 211.8 378.2Z"/></g><circle cx="297" cy="293" r="132"/><path fill="#fff" d="M297.5 229L333.7 301.4A40.5 40.5 0 1 1 261.3 301.4Z"/><g fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round"><path d="M262.5 319.5A35 35 0 0 0 276.9 347.8"/><path d="M331.6 311.6A35 35 0 0 1 330.4 331.5"/></g></svg>
